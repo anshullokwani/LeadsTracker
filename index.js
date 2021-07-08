@@ -40,6 +40,10 @@ deleteBtn.addEventListener("dblclick", function() {
 })
 
 inputBtn.addEventListener("click", function() {
+    if(!(inputEl.value.match("http")))
+    {
+        inputEl.value = "https://"+inputEl.value
+    }
     myLeads.push(inputEl.value)
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
