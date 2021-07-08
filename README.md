@@ -1,3 +1,4 @@
+<img width="314" alt="Leads Tracker" src="https://user-images.githubusercontent.com/78731691/124945639-f7c48880-e02b-11eb-95ca-d4728022f5e6.png">
 # LeadsTracker
 A Chrome Extension to save potential leads (URL) on different websites.
 
